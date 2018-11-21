@@ -1,0 +1,44 @@
+.btn {
+   &,
+   &:visited,
+   &:link {
+      display: grid;
+      align-content: center;
+      width: 15rem;
+      height: 4rem;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 0.6rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+      margin-top: 4rem;
+      transition: all 0.3s;
+      background-size: 220%;
+   }
+
+   &--banner {
+      justify-self: center;
+      background-color: var(--color-secondary);
+      background-image: $linear-gradient-btn-banner;
+      color: var(--color-white);
+
+      &:hover,
+      &:active {
+         background-position: 100%;
+         color: var(--color-secondary);
+      }
+   }
+
+   &--about {
+      background-color: var(--color-primary);
+      background-image: $linear-gradient-btn-about;
+      color: var(--color-grey-dark-1);
+
+      &:hover,
+      &:active {
+         background-position: 100%;
+      }
+   }
+}

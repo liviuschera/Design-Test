@@ -1,0 +1,22 @@
+{
+   "name": "designtest",
+   "version": "1.0.0",
+   "description": "Design test for Brainium Labs",
+   "main": "index.js",
+   "scripts": {
+      "start": "gulp",
+      "build": "gulp build"
+   },
+   "keywords": [],
+   "author": "Liviu Schera",
+   "license": "ISC",
+   "devDependencies": {
+      "browser-sync": "^2.23.6",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^5.0.0",
+      "gulp-cssmin": "^0.2.0",
+      "gulp-image": "^4.3.0",
+      "gulp-imagemin": "^4.1.0",
+      "gulp-sass": "^3.1.0"
+   }
+}

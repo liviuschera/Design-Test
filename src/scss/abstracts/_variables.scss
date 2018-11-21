@@ -1,0 +1,47 @@
+:root {
+   // COLORS
+   --color-primary: #6eccea;
+   --color-secondary: #de3c4b;
+
+   --color-grey-dark-1: #223843;
+
+   --color-grey-light-1: #ececec;
+
+   --color-white: #fff;
+   --color-black: #000;
+
+   // SIZE
+   --header-height: 9rem;
+   --header-width: 100rem;
+
+   //SHADOWS
+   --box-shadow-menu: 0 1rem 3rem rgba(#000, 0.3);
+}
+
+// COLORS
+$color-primary: #6eccea;
+$color-secondary: #de3c4b;
+$color-grey-dark-1: #223843;
+$color-white: #fff;
+$color-black: #000;
+
+//GRADIENTS
+$linear-gradient-nav: linear-gradient(
+   120deg,
+   transparent 0%,
+   transparent 50%,
+   $color-grey-dark-1 50%
+);
+
+$linear-gradient-btn-banner: linear-gradient(
+   120deg,
+   transparent 0%,
+   transparent 50%,
+   $color-white 50%
+);
+$linear-gradient-btn-about: linear-gradient(
+   120deg,
+   transparent 0%,
+   transparent 50%,
+   darken($color-primary, 10%) 50%
+);

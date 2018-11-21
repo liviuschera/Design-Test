@@ -1,0 +1,15 @@
+// MEDIA QUERY MANAGER
+
+@mixin respond-to($pixels, $max-width: true) {
+   // $pixels: #{$pixels / 16} + 0em;
+
+   @if $max-width {
+      @media only screen and (max-width: $pixels) {
+         @content;
+      }
+   } @else {
+      @media only screen and (min-width: $pixels) {
+         @content;
+      }
+   }
+}
